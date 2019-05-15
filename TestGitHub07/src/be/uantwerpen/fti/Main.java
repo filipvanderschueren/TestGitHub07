@@ -10,5 +10,9 @@ public class Main {
         m.setMessage( "a new Message from Filip" );
         System.out.println("Message............" + m.getMessage());
 
+        Value v = new Value();
+        v.setValue( 44 );
+        System.out.println("Value............" + v.getValue());
+
     }
 }
